@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Customer";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+<script src="~/js/application scripts/CustomerController.js"></script>
+<div class="row" ng-controller="customerController">
+    <table class="table">
+        <tr>
+            <th>CompanyName</th>
+            <th>ContactName</th>
+        </tr>
+        <tr>
+            <td>{{customer.CompanyName}}</td>
+            <td>{{customer.ContactName}}</td>
+        </tr>
+    </table>
+</div>
