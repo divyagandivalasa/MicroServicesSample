@@ -1,6 +1,6 @@
 ﻿/// <autosync enabled="true" />
-/// <reference path="js/application scripts/app.js" />
-/// <reference path="js/application scripts/customercontroller.js" />
+/// <reference path="js/applicationscripts/App.js" />
+/// <reference path="js/applicationscripts/CustomerController.js" />
 /// <reference path="js/site.js" />
 /// <reference path="lib/angular/angular.js" />
 /// <reference path="lib/bootstrap/dist/js/bootstrap.js" />
