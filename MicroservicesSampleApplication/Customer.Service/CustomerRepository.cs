@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Customer.Service
 {
-    class CustomerRepository : GenericRepository<CustomerModel, Customer>, ICustomerRepository
+    public class CustomerRepository : GenericRepository<CustomerModel, Customer>, ICustomerRepository
     {
         CustomerModel model;
         public CustomerRepository()
